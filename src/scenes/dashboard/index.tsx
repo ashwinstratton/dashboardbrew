@@ -68,9 +68,15 @@ const Dashboard = () => {
             }
       }
     >
-      <Row1 />
-      <Row2 />
-      <Row3 />
+    <dashboardBox gridArea="a"></dashboardBox>
+    <dashboardBox gridArea="b"></dashboardBox>
+    <dashboardBox gridArea="c"></dashboardBox>
+    <dashboardBox gridArea="d"></dashboardBox>
+    <dashboardBox gridArea="e"></dashboardBox>
+    <dashboardBox gridArea="f"></dashboardBox>
+    <dashboardBox gridArea="g"></dashboardBox>
+    <dashboardBox gridArea="h"></dashboardBox>
+    <dashboardBox gridArea="i"></dashboardBox>
     </Box>
   );
 };
